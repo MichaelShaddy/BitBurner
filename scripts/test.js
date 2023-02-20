@@ -11,6 +11,8 @@ export async function main(ns) {
       const serverSecurityLevel = ns.getServerSecurityLevel(hostName)
       const serverMinSecurityLevel = ns.getServerMinSecurityLevel(hostName)
 
+      
+
 
     while (ns.hasRootAccess(hostName) && serverHackingLevel <= playerHackingLevel) {
       if (serverSecurityLevel > serverMinSecurityLevel) {
